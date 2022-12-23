@@ -173,7 +173,7 @@ bottom: 0px;
 	  background-position: 0 80%;
 	}
 .section-text-right{
-	
+
 	padding: 10px;
 	height: 80%;
 	border-radius: 10%;
@@ -211,11 +211,15 @@ bottom: 0px;
   	margin-top: 18vh;
 }
 .block1{
+	
 	box-shadow: -20px 15px 10px 5px rgba(0, 0, 0, .2);
 	text-align: center;
 	display: inline-block;
-	width: 40%;
+	width: 30%;
 	margin-bottom: 10px;
+}
+.block1:hover{
+transform: scale(1.1);
 }
 .block-title{
 	display: block;
@@ -224,15 +228,17 @@ bottom: 0px;
 	margin-bottom: 50px;
 }
 .img{
-    width: 400px;
-    height: 300px;
+    width: 85%;
+    height: 80%;
 }
 .block-text{
+	height: 15vh;
 	width: 100%;
 	text-align: center;
 	font-size: 25px;
 }
 .block-flex{
+	height: 40vh;
 	width: 100%;
 	display: flex;
 	justify-content: space-between;
